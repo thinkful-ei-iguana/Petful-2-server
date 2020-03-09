@@ -16,7 +16,7 @@ const app = express();
 
 // console.log('client origin is', CLIENT_ORIGIN);
 app.use(cors({
-  origin: 'https://pawsibilities-v2.now.sh/'
+  origin: 'https://pawsibilities-v2.now.sh/adopt'
 }));
 
 const morganSetting = process.env.NODE_ENV === 'production' ? 'tiny' : 'common';
